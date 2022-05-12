@@ -1,0 +1,86 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-shadow: border-box;
+	}
+
+.hero {
+
+}
+
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+.images {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.images div {
+	width: 30%;
+	margin-bottom: 30px;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.images div img {
+	width: 50%;
+}
+
+.textc {
+	text-align: center;
+}
+
+.tour{
+	display: flex;
+	flex-wrap: wrap;
+	width: 500px;
+	font-size: 30px;
+	padding-left: auto;
+	margin: 0 auto;
+}
+
+.tours{
+	display: flex;
+}
+
+.tourtext {
+	display: flex;
+	justify-content: space-around;
+	font-size: px;
+	width: 450px;
+	margin: 0 auto;
+}
+
+.bio {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.BioImg {
+	width: 30%;
+}
+.BioImg img {
+	width: 100%;
+}
+
+.BioBandPhoto{
+  flex-basis: 50%
+}
+
+.BioBand {
+  width: 60%;
+	font-size: 22px;
+	padding-left: 50px;
+}
